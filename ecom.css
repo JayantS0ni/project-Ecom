@@ -10,8 +10,6 @@ body{
     color:#222;
 }
 
-/* Navbar */
-
 .navbar{
     background:#39473d;
     color:white;
@@ -48,8 +46,6 @@ body{
     font-weight:600;
     cursor:pointer;
 }
-
-/* Hero Section */
 
 .hero{
     min-height:500px;
@@ -99,8 +95,6 @@ body{
     font-weight:600;
     cursor:pointer;
 }
-
-/* Products */
 
 .featured{
     padding:80px 50px;
@@ -203,8 +197,6 @@ body{
     font-weight:600;
 }
 
-/* Footer */
-
 footer{
     background:#39473d;
     color:white;
@@ -222,8 +214,6 @@ footer{
     color:white;
     font-size:14px;
 }
-
-/* Responsive */
 
 @media(max-width:768px){
 
