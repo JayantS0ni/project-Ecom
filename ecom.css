@@ -1,0 +1,248 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Georgia, serif;
+}
+
+body{
+    background:#f3f2ef;
+    color:#222;
+}
+
+/* Navbar */
+
+.navbar{
+    background:#39473d;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:22px 60px;
+}
+
+.logo{
+    font-size:2rem;
+    letter-spacing:2px;
+    font-weight:bold;
+}
+
+.nav-links{
+    display:flex;
+    align-items:center;
+    list-style:none;
+    gap:35px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    font-size:14px;
+}
+
+.cart-btn{
+    background:#c6a566;
+    border:none;
+    padding:12px 22px;
+    border-radius:25px;
+    font-weight:600;
+    cursor:pointer;
+}
+
+/* Hero Section */
+
+.hero{
+    min-height:500px;
+    background:linear-gradient(
+    135deg,
+    #9e907c,
+    #8c7864
+    );
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero-content{
+    max-width:750px;
+}
+
+.subheading{
+    color:#f5e7c4;
+    letter-spacing:4px;
+    font-size:14px;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    color:white;
+    font-size:65px;
+    line-height:1.2;
+    font-weight:normal;
+}
+
+.hero-text{
+    color:white;
+    font-size:20px;
+    max-width:700px;
+    margin:30px auto;
+    line-height:1.6;
+}
+
+.shop-btn{
+    background:#c6a566;
+    border:none;
+    padding:18px 38px;
+    border-radius:35px;
+    font-size:18px;
+    font-weight:600;
+    cursor:pointer;
+}
+
+/* Products */
+
+.featured{
+    padding:80px 50px;
+    text-align:center;
+}
+
+.section-tag{
+    color:#b48d42;
+    letter-spacing:4px;
+    font-size:14px;
+}
+
+.featured h2{
+    font-size:50px;
+    margin-top:15px;
+    font-weight:normal;
+}
+
+.section-desc{
+    margin-top:10px;
+    color:#666;
+}
+
+.product-grid{
+    display:flex;
+    justify-content:center;
+    gap:35px;
+    flex-wrap:wrap;
+    margin-top:60px;
+}
+
+.card{
+    width:320px;
+    background:white;
+    border-radius:16px;
+    overflow:hidden;
+    border:1px solid #ddd;
+}
+
+.product-image{
+    height:220px;
+    position:relative;
+}
+
+.mug{
+    background:#c5ac8d;
+}
+
+.bowl{
+    background:#a8b39d;
+}
+
+.vase{
+    background:#c7b6c0;
+}
+
+.badge{
+    position:absolute;
+    top:15px;
+    left:15px;
+    background:#bea15c;
+    color:white;
+    padding:5px 12px;
+    border-radius:15px;
+    font-size:12px;
+}
+
+.card-body{
+    padding:20px;
+    text-align:left;
+}
+
+.card-body h3{
+    margin-bottom:8px;
+    font-size:24px;
+}
+
+.card-body p{
+    color:#666;
+    margin-bottom:20px;
+}
+
+.product-footer{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.product-footer span{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.product-footer button{
+    padding:10px 18px;
+    border:1px solid #333;
+    background:white;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight:600;
+}
+
+/* Footer */
+
+footer{
+    background:#39473d;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+.footer-links{
+    margin-top:15px;
+}
+
+.footer-links a{
+    margin:0 12px;
+    text-decoration:none;
+    color:white;
+    font-size:14px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .nav-links{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .hero h1{
+        font-size:42px;
+    }
+
+    .hero-text{
+        font-size:16px;
+        padding:0 20px;
+    }
+}
