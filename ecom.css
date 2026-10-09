@@ -6,12 +6,12 @@
 }
 
 body{
-    background:#f3f2ef;
+    background-color:#f3f2ef;
     color:#222;
 }
 
 .navbar{
-    background:#39473d;
+    background-color:#39473d;
     color:white;
     display:flex;
     justify-content:space-between;
@@ -32,14 +32,8 @@ body{
     gap:35px;
 }
 
-.nav-links a{
-    text-decoration:none;
-    color:white;
-    font-size:14px;
-}
-
 .cart-btn{
-    background:#c6a566;
+    background-color:#c6a566;
     border:none;
     padding:12px 22px;
     border-radius:25px;
@@ -49,11 +43,7 @@ body{
 
 .hero{
     min-height:500px;
-    background:linear-gradient(
-    135deg,
-    #9e907c,
-    #8c7864
-    );
+    background:linear-gradient(#9e907c, #6D5948);
     display:flex;
     justify-content:center;
     align-items:center;
@@ -66,15 +56,14 @@ body{
 
 .subheading{
     color:#f5e7c4;
-    letter-spacing:4px;
     font-size:14px;
     margin-bottom:20px;
+    letter-spacing: 8px;
 }
 
 .hero h1{
     color:white;
-    font-size:65px;
-    line-height:1.2;
+    font-size:60px;
     font-weight:normal;
 }
 
@@ -87,7 +76,7 @@ body{
 }
 
 .shop-btn{
-    background:#c6a566;
+    background-color:#c6a566;
     border:none;
     padding:18px 38px;
     border-radius:35px;
@@ -140,15 +129,15 @@ body{
 }
 
 .mug{
-    background:#c5ac8d;
+    background:#C0A78C;
 }
 
 .bowl{
-    background:#a8b39d;
+    background:#95A28D;
 }
 
 .vase{
-    background:#c7b6c0;
+    background:#B1A0A7;
 }
 
 .badge{
@@ -215,7 +204,7 @@ footer{
     font-size:14px;
 }
 
-@media(max-width:768px){
+@media(max-width:760px){
 
     .navbar{
         flex-direction:column;
@@ -235,4 +224,8 @@ footer{
         font-size:16px;
         padding:0 20px;
     }
-}
+    .nav-links{
+        display: none
+    }
+
+}  
